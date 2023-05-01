@@ -1,5 +1,5 @@
 from rest_framework import filters
-from .models import Title
+from reviews.models import Title
 
 
 class TitleFilter(filters.FilterSet):
